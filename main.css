@@ -1,0 +1,86 @@
+img {
+	height: 100%;
+	margin-right: auto;
+	margin-left:  auto;
+	display: block;
+}
+
+body {
+	font-family: 'Gloria Hallelujah', sans-serif;
+	background-color: rgba(15, 250, 15, .5);
+}
+
+.board {
+	height: 80%;
+	width: 50%;
+	display: inline-block;
+	margin: 0 25%;
+	background-image: url('http://www.casino-sidan.se/images/background.jpg');
+	background-size: cover;
+}
+
+.card {
+	height: 200px;
+	width: 138px;
+	border: 1px solid black;
+	background-image: url('http://www.gamblinginc.us/cheetahplayingcards/images/cheetah-card.gif');
+	background-size: cover;
+	border-radius: 10px;
+	float: left;
+	margin: 13%;
+}
+
+.name {
+	color: #ff0000;
+}
+
+h1 {
+	color: rgb(2, 132, 130);
+	text-align: center;
+}
+
+h2 {
+	color: rgb(2, 132, 130);
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+nav {
+	background-image: url('http://images.clipartpanda.com/cards-20clip-20art-playing-card2.png');
+	background-size: auto 100%;
+}
+
+p {
+	text-align: center;
+}
+
+footer {
+	background-color: rgb(2, 132, 130);
+	text-align: center;
+	clear: both;
+}
+
+.navbar {
+	background-color: rgb(2, 132, 130);
+	color: black;
+	padding: 35px;
+	display: block;
+	float: left;
+	text-decoration: none;
+}
+
+.navbar:hover {
+	background-color: rgba(2, 132, 130, .5);
+}
+
+.clearfix:after {
+       	visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        font-size: 0;
+      }
